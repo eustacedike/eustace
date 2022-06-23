@@ -1,0 +1,202 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./resources/index.css">
+    <link rel="icon" href="./icons/favicon.ico">
+    <title>Eustace Dike | Frontend Developer</title>
+</head>
+<body>
+
+    <!-- Section: Navigation Bar -->
+    <div class="navbar">
+        <span><img alt="logo" src="./images/avatar.jpg" width="50px" height="50px">
+        <a class="eustace" href="#"><h2>EUSTACE</h2></span></a>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="bi bi-house-door-fill"></i> HOME</a></li>
+                <li><a href="#about"><i class="bi bi-person-fill"></i> ABOUT</a></li>
+                <li><a href="#skills"><i class="bi bi-wrench-adjustable"></i> SKILLS</a></li>
+                <li><a href="#projects"><i class="bi bi-gear-fill"></i> PROJECTS</a></li>
+                <li><a href="#contact"><i class="bi bi-envelope-fill"></i> CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <nav class="smallnav" id="mobile">
+          <ul>
+              <li><a href="#"><i class="bi bi-house-door-fill"></i> HOME</a></li>
+              <li><a href="#about"><i class="bi bi-person-fill"></i> ABOUT</a></li>
+              <li><a href="#skills"><i class="bi bi-wrench-adjustable"></i> SKILLS</a></li>
+              <li><a href="#projects"><i class="bi bi-gear-fill"></i> PROJECTS</a></li>
+              <li><a href="#contact"><i class="bi bi-envelope-fill"></i> CONTACT</a></li>
+          </ul>
+      </nav>
+
+        <div class="navButton">
+          <div class="menu" id="menu" onclick="menu(this); mobile();">
+              <div class="bar1" id="bar1"></div>
+              <div class="bar2" id="bar2"></div>
+              <div class="bar3" id="bar3"></div>
+          </div>
+        </div>
+    </div>
+
+     <!-- Section: Header -->
+     <div class="header">
+        <!-- <img src="./images/bg-white.jpg" height="auto" width="100%"/> -->
+        <div class="intro">
+            <div class="intro-1">
+                <h1><b>EUSTACE DIKE</b></h1>
+                
+            </div>
+            <div class="intro-2">
+                <p><b>HI THERE, WELCOME TO MY PAGE..
+                  I'M A <span style="color: crimson; text-shadow: 0px 0px 2px gold;">FRONTEND DEVELOPER</span> BASED IN NIGERIA. <br> I AM
+                  PROFICIENT IN BUILDING HIGHLY RESPONSIVE WEB PAGES USING
+                  HTML, CSS, JavaScript AND ReactJs.
+                </b></p>
+            </div>
+        </div>
+        <button onclick="window.location.href='./resources/eustace.pdf'" class='animate__animated animate__rubberBand'><h3>MY RESUME<br><code style="font-size: 10px;">PDF - 230kb</code></h3></button>
+     </div>
+     
+     <!-- Section: About Me -->
+     <div class="about" id="about">
+         <div>
+             <h1>ABOUT ME</h1>
+             <p>
+              My name is <b>Eustace Dike</b> and I'm from Imo, Nigeria. I have always had a passion for working on the computer as far back
+              as I could remember. I studied Microbiology in the higher institution but that has not deterred my love for working on a computer.
+              I decided to fuse my passion and career and this required acquiring a knowledge in programming. The journey has started but it 
+              has not ended... So far so good, it's been a good one.
+             </p>
+         </div>        
+     </div>
+
+     <!-- Section: About Me -->
+     <div class="skills" id="skills">
+        <div>
+            <h1>MY SKILLS</h1>
+            <div class="my-skills">
+                <div class="skill-1">
+                    <img src="./icons/html.svg" height="200px" width="200px">
+                    <h2>HTML</h2>
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <div class="skill-2">
+                    <img src="./icons/css.svg" height="200px" width="200px">
+                    <h2>CSS</h2>
+                    <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <div class="skill-3">
+                    <img src="./icons/react.svg" height="200px" width="200px">
+                    <h2>React JS</h2>
+                    <p>&#9733;&#9733;&#9733;</p>
+                </div>
+                <div class="skill-4">
+                    <img src="./icons/javascript.svg" height="200px" width="200px">
+                    <h2>Js</h2>
+                    <p>&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section: projects -->
+    <div class="projects" id="projects">
+      <h1>MY PROJECTS</h1>
+      <div class="works">
+        <div class="project-1">
+          <h3>MTN NIGERIA Clone</h3>
+          <img src="./images/mtnsnip.png">
+          <p>A replica of <a href="mtn.ng">MTN Nigeria</a> website built using ReactJs Framework, CSS and flickity. In progress...</p>
+          <button>VIEW PROJECT</button>
+        </div>
+        <div class="project-3">
+          <h3>LUXURY HOTEL</h3>
+          <img src="./images/luxury.png" width="100%" height>
+          <p>A basic multi-page hotel website displaying the qualities of the hotel, it's facilities and pricing</p>
+          <button>VIEW PROJECT</button>
+        </div>
+        <div class="project-3">
+          <h3>SCOPE</h3>
+          <img src="./images/scope.PNG" width="100%">
+          <p>A community of experienced Programmers, providing Tech solutions to clients</p>
+          <button>VIEW PROJECT</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Contact -->
+    <div class="contact" id="contact">
+        <h1 style="-webkit-text-stroke:1px white; margin-top: 0; color: white">CONTACT ME</h1>
+            <div class="contact-main">
+              <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                  <div class="form-1">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      name="sender-name"
+                      placeholder="Enter Your Name"
+                      
+                      required
+                    />
+                  </div>
+                  <div class="form-1">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      name="sender-email"
+                      placeholder="Enter Your Email"
+                      
+                      required
+                    />
+                  </div>
+                  <div class="form-1">
+                    <label for="message">Message</label>
+                    <textarea
+                      name="message"
+                      cols="20" rows="10"
+                      placeholder="Your message..."
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Send"
+                    
+                    class="submit-btn"
+                  />
+                </form>
+              </div>
+            </div>
+        <div class="social-main">
+          
+          <div class="socials">
+            <a href="https://web.facebook.com/eustace.dike">
+              <img src="./icons/facebook.png" alt="Facebook"/></a>
+            <a href="https://twitter.com/eustace_dike">
+              <img src="./icons/twitter.png" alt="Twitter"/></a>
+            <a href="https://wa.link/axlni2">
+              <img src="./icons/whatsapp.png" alt="WhatsApp"/></a>
+              <a href="https://instagram.com/eustacedike">
+                <img src="./icons/icons8-instagram.png" alt="instagram"/></a>
+              <a href="https://github.com/eustacedike">
+                <img src="./icons/icons8-github.png" alt="github"/></a>
+            </div>
+        </div>  
+    </div>
+    <!-- Section: Footer -->
+    <div class="footer">
+    
+    </div>
+    <script>
+      function menu (x) {x.classList.toggle("change");}
+      function mobile () {var y = document.getElementById('mobile');
+        y.classList.toggle("smallnavshow");}
+    </script>
+</body>
+</html>
