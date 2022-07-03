@@ -115,11 +115,11 @@ body {
     flex-direction: column;
     position: fixed;
     width: 200px;
-    top: 10%;
+    top: 9%;
     left: 0px;
     background-color: black;
     height: 100%;
-    box-shadow: 2px 2px 8px 8px black;
+    box-shadow: 2px 9px 8px 8px black;
     padding-top: 35px;
     
     /* transition: 0.5s; */
@@ -252,7 +252,7 @@ transition: 500ms;
 text-align: center;
 padding: 10px;
 /* border: 2px solid black; */
-border-radius: 20px;
+border-radius: 2vw;
 margin: 20px;
 }
 
@@ -276,7 +276,7 @@ margin: 20px;
     border: 3px solid white;
     margin-bottom: 25px;
     background: #fff;
-    border-radius: 30px;
+    border-radius: 1vw;
     color: black;
     box-shadow: 0px 0px 10px 1px black;
     transition: 600ms;
@@ -303,19 +303,19 @@ margin: 20px;
     display: none;
     background-color: yellow;
     box-shadow: 2px 2px 20px 2px grey;
-    position: absolute; 
+    /* position: absolute;  */
     bottom: 50%;
     /* right: 35%; */
-    margin: 0 35%;
+    margin: auto auto;
     border-radius: 10px;
     background: linear-gradient(grey, black);
     border: none;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    /* min-width: 200px; */
+    min-width: 130px;
     cursor: pointer;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
 
 .works div button:hover {
@@ -374,15 +374,19 @@ margin: 20px;
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #ffcc00;
+    background: linear-gradient(yellow, orange);
     border-radius: 5px;
+    border: none;
     font-size: 15px;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
-    transition: 0.6s;
+    
   }
 
-  .submit-btn:hover {background-color: crimson;}
+  .submit-btn:hover {
+    background: linear-gradient(orange, crimson);
+    transition: 0.6s;
+}
 
 .social-main {
     color: #e6e7e9;
@@ -406,9 +410,9 @@ margin: 20px;
 
 }
 
-.socials div {
-    /* padding: 50px; */
-}
+/* .socials div {
+    /* padding: 50px
+} */
 
 @media (max-width: 800px) {
     .intro {font-size: 20px;
@@ -472,6 +476,32 @@ margin: 20px;
     .my-skills {
         padding: 0px;
     }
+
+    .my-skills div p {
+        font-size: 15px;
+    }
+
+    .my-skills div:hover h2 {
+        display: none;
+    } 
+
+    h1 {
+       font-size: 20px; 
+    }
+
+    .intro-1 h1 {
+        font-size: 25px;
+    }
+    
+    .my-skills div h2 {
+       font-size: 15px;
+    } 
+
+    .header button {
+        font-size: 10px;
+        border: 1px solid navy;
+        }
+    
 
     
 }
