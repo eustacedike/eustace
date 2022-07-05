@@ -115,11 +115,11 @@ body {
     flex-direction: column;
     position: fixed;
     width: 200px;
-    top: 9%;
+    top: 8%;
     left: 0px;
     background-color: black;
     height: 100%;
-    box-shadow: 2px 9px 8px 8px black;
+    box-shadow: 2px 5px 8px 8px black;
     padding-top: 35px;
     
     /* transition: 0.5s; */
